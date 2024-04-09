@@ -61,6 +61,9 @@ async function decodeTxn(chain , trnHash){
 }
 
 
+
+
+
 async function getTokenBalance(chain , address){
     try{
         const walletEthToken = await Moralis.EvmApi.balance.getNativeBalance({
